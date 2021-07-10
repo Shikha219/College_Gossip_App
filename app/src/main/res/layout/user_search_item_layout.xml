@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/search_profile_image"
+        android:src="@drawable/ic_profile"
+        android:padding="4dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_username"
+        android:text="username"
+        android:layout_toRightOf="@+id/search_profile_image"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="12dp"
+        android:textSize="19sp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        app:civ_border_color="#05df29"
+        app:civ_border_width="9dp"
+        android:id="@+id/image_online"
+        android:src="@drawable/ic_baseline_arrow_drop_down_circle_24"
+        android:layout_below="@id/search_username"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="-16dp"
+        android:layout_toRightOf="@id/search_username"
+        android:layout_toEndOf="@id/search_profile_image"
+        android:visibility="gone">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        app:civ_border_color="#bfbfbf"
+        app:civ_border_width="9dp"
+        android:id="@+id/image_offline"
+        android:src="@drawable/ic_baseline_arrow_drop_down_circle_24"
+        android:layout_below="@id/search_username"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="-16dp"
+        android:layout_toRightOf="@id/search_username"
+        android:layout_toEndOf="@id/search_profile_image"
+        android:visibility="gone">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:paddingBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/search_username"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_last"
+        android:layout_toRightOf="@+id/search_profile_image"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="20dp"
+        android:padding="6dp"
+        android:maxLines="1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19sp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "549797425398",
+    "project_id": "college-gossip-10f04",
+    "storage_bucket": "college-gossip-10f04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549797425398:android:f8603cfc01278b14333cd7",
+        "android_client_info": {
+          "package_name": "com.example.shikha.collegegossip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549797425398-67065238jarja7hdkfs862rpe3pluvt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD27gIocSzOGynXy0rsPV64QhSahK0Bhvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549797425398-67065238jarja7hdkfs862rpe3pluvt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
